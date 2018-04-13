@@ -1,0 +1,10 @@
+.cat{
+  /* Need to remember that the relative path is always from where the file is
+  in this case we are writing this css file in the css folder so inorder to go
+  to the image of cat in the cats folder we first need to go up to the parent folder
+  using dot dot and then down to images folder */
+  background: url("../images/cat.jpg");
+  background-size: cover;
+  width: 1200px;
+  height: 1200px;
+}
